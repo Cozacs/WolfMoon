@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 export default function Home () {
 
     const [show, setShow] = useState(true);
+    // eslint-disable-next-line
     const [mousePosition, setMousePosition] = useState({x: 0, y: 0});
 
     const handleAnimation = () => {
