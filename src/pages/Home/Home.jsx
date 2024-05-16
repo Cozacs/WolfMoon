@@ -29,6 +29,9 @@ export default function Home () {
             <img src="assets/BackGroundMoon.png" alt="Moon" className={show ? 'b2 up1' : 'b2'} />
             <img src="assets/BackGroundFlorest.png" alt="Florest" className={show ? 'b3 up2' : 'b3'} />
         </main>
+        <footer>
+            <p>Created by Cozacs</p>
+        </footer>
         </>
     );
 }

@@ -3,6 +3,7 @@ main {
     width: 100vw;
     overflow: hidden;
     position: relative;
+    background-image: ;
 }
 main img {
     width: 100%;
@@ -72,7 +73,13 @@ main img {
         opacity: 1;
     }
 }
-
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 320px) {
     .b1 {
         width: 1000px;
