@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 export default function Header() {
@@ -8,7 +9,8 @@ export default function Header() {
                 <img src="assets/LogoBrand.png" alt="LogoBrand" />
             </div>
             <nav>
-                
+                <Link to="/">Home</Link>
+                <Link to="/Contact">Contact</Link>
             </nav>
         </header>
     )

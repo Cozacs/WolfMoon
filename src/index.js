@@ -1,11 +1,16 @@
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Home from './pages/Home/Home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home/Home.jsx';
+import Contact from './pages/Contact/Contact.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
-  <Home />
-  </>
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/Contact' element={<Contact />} />
+    </Routes>
+  </BrowserRouter>
 );
