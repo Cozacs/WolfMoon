@@ -9,8 +9,8 @@ export default function Header() {
                 <img src="assets/LogoBrand.png" alt="LogoBrand" />
             </div>
             <nav>
-                <Link to="/">Home</Link>
-                <Link to="/Contact">Contact</Link>
+                <Link to="/" className='Nav'>Home</Link>
+                <Link to="/Contact" className='Nav'>Contact</Link>
             </nav>
         </header>
     )

@@ -6,9 +6,13 @@
   box-sizing: border-box;
 }
 :root {
-  --corBranca: #F0F4F3;
+  --corBranca: rgba(240, 244, 243, 0.56);
 }
 body {
   font-family: 'Poppins', sans-serif;
-  /*background-color: black;*/
+  background-color: black;
+  color: var(--corBranca);
+}
+::selection {
+  background-color: var(--corBranca);
 }

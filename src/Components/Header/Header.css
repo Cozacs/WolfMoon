@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+}
+.LogoContainer {
+    background-color: var(--corBranca);
+    height: fit-content;
+    padding: 4px 15px;
+    border-radius: 30px;
+    display: flex;
+    gap: 5px;
+}
+.LogoContainer img {
+    width: 50px;
+}
+nav {
+    padding: 0px 15px;
+    display: flex;
+    gap: 15px;
+}
+.Nav {
+    text-decoration: none;
+    color: var(--corBranca);
+}

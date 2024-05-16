@@ -5,7 +5,7 @@ export default function Contact () {
     return (
         <>
         <Header />
-        Contact
+        <iframe src="https://cozacdev.com.br" frameborder="0" title="Portfolio" ></iframe>
         </>
     );
 }
